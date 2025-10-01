@@ -1,80 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset ="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale-1">
-        <title></title>
-    </head>
-    <body>
-        <!-- FORMS -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout Example</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-    </body>
-         
-         <form>
-            What are the color in philippines?
-          <br><input type=""placeholder="ENTER YOU ANSWER"><br>
-          <br>
-            how many color are in rainbow?
-          <br><input type=""placeholder="ENTER YOU ANSWER"><br>
-          <br>
-            which hockey team has won the most stanley cups?
-          <br><input type=""placeholder="ENTER YOU ANSWER"><br>
-          <br>
-            who his the shooter in all time nba? 
-          <br><input type=""placeholder="ENTER YOU ANSWER"><br>
-          <br>
-            <br><hr>
+       
+        #container {
+            width: 1200px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+        }
 
-            What is the last book in the Twilight novel series?<br>
-            <input type="radio" name="abc"> Breaking Dawn<br>
-            <input type="radio" name="abc" > Life And Death: Twilight Reimagined<br>
-            <input type="radio" name="abc" > Midnight Sun
-            <br>
-            <br>
-            Who is the most followed person on Instagram?<br>
-            <input type="radio" name="you"> Kylie Jennerbr><br>
-            <input type="radio"name="you" > Taylor Swift<br>
-            <input type="radio" name="you" > Cristiano Ronaldo
-            <br>
-            <br>
-            Who was the first member of One Direction to leave in 2015?<br>
-            <input type="radio"name="planet" > Harry Styles<br>
-            <input type="radio" name="planet" > Zayn Malik<br>
-            <input type="radio" name="planet" > Niall Horan
-            <br>
-            <br><hr>
-             1. what do you most use in socmed?
-            <br><input type="checkbox" name="what do you most use in socmed">
-            tiktok
-            <br><input type="checkbox" name="what do you most use in socmed">
-            facebook
-            <br><input type="checkbox" name="what do you most use in socmed">
-            instagram 
-            <br><input type="checkbox" name="what do you most use in socmed">
-            youtube
-            <br>
-            <br>
-            2. what you can drive?
-            <br><input type="checkbox" name="what do you most use in socmed">
-            motocycle 
-            <br><input type="checkbox" name="what do you most use in socmed">
-            car
-            <br><input type="checkbox" name="what do you most use in socmed">
-            truck
-            <br><input type="checkbox" name="what do you most use in socmed">
-            tricycle 
-            <br>
-            <br>
-            2. what is your favorite color?
-            <br><input type="checkbox" name="what do you most use in socmed">
-            blue
-            <br><input type="checkbox" name="what do you most use in socmed">
-            pink
-            <br><input type="checkbox" name="what do you most use in socmed">
-            black
-            <br><input type="checkbox" name="what do you most use in socmed">
-            yellow
+       
+        #header {
+            width: 1200px;
+            height: 150px;
+            background-color:green;
+            text-align: center;
+            line-height: 150px;
+            font-size: 24px;
+            font-weight: bold;
+        }
 
-            <center> <button>submit</button></center>
+       
+        #body-content {
+            width: 1200px;
+            height: 500px;
+        }
 
-         </form>
+       
+        #left-body-content {
+            width: 200px;
+            height: 500px;
+            float: left;
+            background-color:yellowgreen;
+            text-align: center;
+            font-weight: bold;
+            line-height: 500px;
+        }
+
+        
+        #center-body-content {
+            width: 800px;
+            height: 500px;
+            float: left;
+            background-color: goldenrod;
+            text-align: center;
+            line-height: 500px;
+            font-weight: bold;
+        }
+
+      
+        #right-body-content {
+            width: 200px;
+            height: 500px;
+            float: right;
+            background-color: yellowgreen;
+            text-align: center;
+            font-weight: bold;
+            line-height: 500px;
+        }
+
+        
+        #footer {
+            clear: both;
+            width: 1200px;
+            height: 100px;
+            background-color:green;
+            color: black;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="header">
+            Header Section
+        </div>
+
+        <div id="body-content">
+            <div id="left-body-content">
+                Navigation Links
+            </div>
+
+            <div id="center-body-content">
+                Main Content
+            </div>
+
+            <div id="right-body-content">
+                Sidebar Widgets
+            </div>
+        </div>
+
+        <div id="footer">
+            Footer Section
+        </div>
+
+    </div>
+</body>
+</html>
